@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-prev-button {
+  background-color: #3D64D9;
+  color: white;
+}
+
+.custom-next-button {
+  background-color: #3D64D9;
+  color: white;
+}
+
+.custom-prev-button:hover,
+.custom-next-button:hover {
+  background-color: #2980b9;
+}
+
+.custom-header-wrapper {
+  background-color: white;
+}
+
+.title {
+  color: #2B2A2A;
+}
+
+.grid-body {
+  background-color: white;
+}
+
+.grid-header-cell {
+  color: #515B79;
+}
+
+.selectedDay {
+  background-color: #4CAF50; /* Cor de fundo personalizada */
+  color: white; /* Cor do texto */
+  border-radius: 50%; /* Torna o dia em formato circular */
+}
